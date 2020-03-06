@@ -19,11 +19,15 @@ summary(iris)
 # Problem 2:
 
 The sample median of the variable Petail.With is  
-
+1.300
 # Problem 3: Draw a histograms of the Sepal.Length variable
 
 ```{r}
-hist()
+hist(iris$Sepal.Length)
 ```
 
 # Problem 4: Draw a scatter plot 
+```{r}
+plot(iris$Sepal.Length, iris$Sepal.Width)
+```
+
